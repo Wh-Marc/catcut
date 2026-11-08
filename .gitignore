@@ -1,0 +1,25 @@
+# Rust
+/target/
+**/*.rs.bk
+
+# Node / UI
+ui/node_modules/
+dist/
+ui/.svelte-kit/
+.pnpm-debug.log*
+
+# Tauri
+src-tauri/target/
+
+# Local media, test files & logs
+*.mp4
+*.mkv
+*.mov
+*.avi
+*.srt
+*.vtt
+catcut_project.json
+*.log
+/tmp/
+.DS_Store
+Thumbs.db
