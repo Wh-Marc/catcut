@@ -72,7 +72,7 @@ Khi chạy CatCut ở chế độ UI (`./target/release/catcut`), thêm vào c�
 
 ---
 
-## 🛠️ Danh sách 17 công cụ MCP (AI Editing Tools)
+## 🛠️ Danh sách 21 công cụ MCP (AI Editing Tools)
 
 | Tên Tool | Mô tả |
 | :--- | :--- |
@@ -93,6 +93,10 @@ Khi chạy CatCut ở chế độ UI (`./target/release/catcut`), thêm vào c�
 | `export_capcut_draft` | Xuất timeline hiện tại ra file `draft_content.json` của CapCut. |
 | `undo` | Hoàn tác thao tác chỉnh sửa gần nhất. |
 | `redo` | Thực hiện lại thao tác vừa hoàn tác. |
+| `detect_scenes` | Quét chuyển cảnh video siêu tốc (FFmpeg scene detection). |
+| `detect_silence` | Quét các đoạn ngập ngừng, khoảng lặng và dead air trong âm thanh. |
+| `auto_rough_cut` | **Dựng thô tự động**: Xoá sạch khoảng lặng và ripple-stitch các đoạn nói liền mạch. |
+| `get_transcript` | Trích xuất phụ đề/lời thoại kèm timestamp để AI hiểu nội dung kịch bản. |
 
 ---
 
